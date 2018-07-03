@@ -1,0 +1,89 @@
+{
+    "name": "discord-self-bot",
+    "description": "Favna#0001's Discord-Self-Bot for anyone to grant extreme power to their Discord usage",
+    "keywords": [
+        "discord",
+        "bot",
+        "selfbot",
+        "discord.js",
+        "discord.js-commando"
+    ],
+    "website": "https://favna.xyz/selfbot",
+    "repository": "https://github.com/favna/discord-self-bot",
+    "logo": "https://favna.xyz/images/svgs/selfbot.svg",
+    "env": {
+        "token": {
+            "description": "Your token. To get your token read this: https://github.com/Favna/Discord-Self-Bot/wiki/Installation-&-Setup#grabbing-your-discord-account-token"
+        },
+        "owner": {
+            "description": "Your User ID. To get your ID enable \"Developer Mode\" in Discord Settings -> Appearance -> Developer Mode then right click your own name anywhere and click \"Copy ID\""
+        },
+        "heroku": {
+            "description": "Name you are giving this app? Case sensitive! Exact name as above!",
+            "required": true
+        },
+        "prefix": {
+            "description": "An optional global prefix",
+            "default": "$",
+            "required": false
+        },
+        "googleapikey": {
+            "description": "OPTIONAL: If you already have a Google API key you can enter it here",
+            "required": false
+        },
+        "imagekey": {
+            "description": "OPTIONAL: If you already have a Google Custom Search Engine key for images you can enter it here",
+            "required": false
+        },
+        "searchkey": {
+            "description": "OPTIONAL: If you already have Google Custom Search Engine key for web searches you can enter it here",
+            "required": false
+        },
+        "oxrkey": {
+            "description": "OPTIONAL: If you already have an Open Exchange Rates API key you can enter it here",
+            "required": false
+        },
+        "moviedbkey": {
+            "description": "OPTIONAL: If you already have a TheMovieDatabase API key you can enter it here",
+            "required": false
+        },
+        "steamkey": {
+            "description": "OPTIONAL: If you already have a Steam API key you can enter it here",
+            "required": false
+        },
+        "igdbkey": {
+            "description": "OPTIONAL: If you already have an IGDB API key you can enter it",
+            "required": false
+        },
+        "spotifyid": {
+            "description": "OPTIONAL: If you already have a Spotify App ID you can enter it here",
+            "required": false
+        },
+        "spotifysecret": {
+            "description": "OPTIONAL: If you already have a Spotify App Secret you can enter it here",
+            "required": false
+        },
+        "timezonedbkey": {
+            "description": "OPTIONAL: If you already have a TimezoneDB API key you can enter it here",
+            "required": false
+        },
+        "kitsuid": {
+            "description": "OPTIONAL: Application ID for Kitsu.io's API. You can use the default value.",
+            "required": false,
+            "value": "AWQO5J657S"
+        },
+        "kitsukey": {
+            "description": "OPTIONAL: API key for Kitsu.io's API. You can use the default value.",
+            "required": false,
+            "value": "NzYxODA5NmY0ODRjYTRmMzQ2YjMzNzNmZmFhNjY5ZGRmYjZlMzViN2VkZDIzMGUwYjM5ZjQ5NjAwZGI4ZTc5MHJlc3RyaWN0SW5kaWNlcz1wcm9kdWN0aW9uX21lZGlhJmZpbHRlcnM9Tk9UK2FnZVJhdGluZyUzQVIxOA=="
+        },
+        "webhookid": {
+            "description": "OPTIONAL: If you already have a Webhook ID you can enter it here",
+            "required": false
+        },
+        "webhooktoken": {
+            "description": "OPTIONAL: If you already have a Webhook Token you can enter it here",
+            "required": false
+        }
+    }
+}
