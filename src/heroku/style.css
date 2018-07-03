@@ -1,0 +1,43 @@
+.btn-patreon {
+    color: #fff !important;
+    background-color: #F5511E !important;
+    border-color: #F5511E !important;
+}
+
+.btn-github {
+    color: #fff !important;
+    background-color: #343a40 !important;
+    border-color: #343a40 !important;
+}
+
+.btn-server {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.btn-heroku {
+    color: #fff !important;
+    background-color: #430098 !important;
+    border-color: #430098 !important;
+}
+
+section {
+    padding-top: 12.5%;
+}
+
+.secondRow {
+    padding-top: 5%;
+}
+
+.thirdRow {
+    padding-top: 1%;
+}
+
+.col-sm-offset-3 {
+    margin-left: 20.83333335%
+}
+
+a {
+    text-decoration: none !important;
+}
